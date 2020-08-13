@@ -9,13 +9,13 @@ const {
   CloseWindow,
   ClearBackground,
   DrawCircle
-} = require('raylib')
+} = require("raylib")
 
 // INPUT CONSTANTS
-const { KEY_DOWN, KEY_LEFT, KEY_UP, KEY_RIGHT } = require('raylib')
+const { KEY_DOWN, KEY_LEFT, KEY_UP, KEY_RIGHT } = require("raylib")
 
 // COLOR CONSTANTS
-const { RED, MAROON, BLACK, WHITE } = require('raylib')
+const { RED, MAROON, BLACK, WHITE } = require("raylib")
 
 // GAME LOCAL CONSTANTS
 // screen settings
@@ -35,7 +35,7 @@ let frameCounter = 0
 const randomizerRate = 5 // this is seconds
 
 // INITIALIZATION OF GAME
-InitWindow(screenWidth, screenHeight, 'Super Cool Round Circle Game')
+InitWindow(screenWidth, screenHeight, "Super Cool Round Circle Game")
 SetTargetFPS(60) // Set our game to run at 60 frames-per-second
 
 // MAIN GAME LOOP - THIS FIRES 60 TIMES PER SECOND
